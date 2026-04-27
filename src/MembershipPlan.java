@@ -35,6 +35,8 @@ public abstract class MembershipPlan implements Billable {
     }
 
     public abstract String getPlanType();
+
+@Override
     public abstract double calculateMonthlyNetPrice();
 
     @Override
